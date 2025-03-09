@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Rylin cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <style>
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:  #FF0000
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #152aa088;
+    color: #000000
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color cubic-bezier0.5s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+
+.hero {
+    background: url('https://via.placeholder.com/1920x800');
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+
+#menu {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+#contact {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .menu-items {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .menu-item {
+        width: 80%;
+        margin-bottom: 30px
+        
+        @media(max width:768px) {
+
+        .drinks-item {
+            flex-direction:column;
+            align-items:center;
+        }
+        }
+    </style>
+     -->
+
+    <header>
+        <div class="container">
+            <h1>Rylin Restaurant</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#drinks">drinks</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+           
+            <h2>Welcome to Rylin Delicious Eats!</h2>
+           
+           <img class="picture"src="pictures/display pic 1.jpeg" alt="picture">
+            <p>Your favorite place for fresh and tasty meals.</p>
+            
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img class ="picture " src = "pictures/pasta pic 2.jpeg" alt= "picture">
+                    <h3>Spaghetti Bolognese</h3>
+                    <p>Classic Italian pasta with rich bolognese sauce.</p>
+                    <p class="price">ksh 2500</p>
+                </div>
+                <div class="menu-item">
+                    <img class="picture" src=" pictures/picture 3 steak.jpeg"alt="picture">
+                    <h3>grilled steak and shrimp</h3>
+                    <p>garlic butter grilled steak and shrimp </p>
+                    <p class="price">ksh 4500</p>
+                </div>
+                <div class="menu-item">
+                    <img class= "picture" src="pictures/lamb chops and wedges.jpeg"alt="picture">
+                    <h3>lamb chops and potato wedges</h3>
+                    <p> savoury taste in every bite</p>
+                    <p class="price">ksh 3200</p>
+                </div>
+             <div class ="menu-item">
+               <img class="picture"src="pictures/pic7.jpeg"alt="pictures">
+
+               <h3><b>spicy noodles</h3></b>
+               <p>prepared with organic ingredients</p>
+               <p class="price"> ksh 1500</p>
+                </div>
+                <div class="menu-item">
+                    <img class="picture"src="pictures/pic5.jpeg"alt="pictures">
+
+                    <h3>Steak with Garlic Butter Sauce and Mashed Potatoes. </h3>
+                    <p>Seared steak pieces served over a bed of mashed potatoes and topped with a rich garlic butter sauce.</p>
+                    <p class ="price"> ksh 1350 </p>
+                    </div>
+            
+        
+        <div class="menu-item">
+            <img class="picture"src="pictures/pic 6.jpeg"alt="pictures">
+            <h4> Rib eye steak .</h4>
+            <p>perfect balance of tenderness and bold flavor</p>
+            <p class="price">ksh 5500</p>
+            </div>
+            </div>
+    </section>
+    <!-- drinks Section -->
+    <section id="drinks">
+        <div class="container">
+            <h2>Our drinks</h2>
+            <div class="drinks-items">
+                <div class="drink-item">
+                    <img class="picture"src="pictures/pic8.jpeg"alt="pictures">
+                    <h5>long island iced tea</h5>
+
+  
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Delicious Eats, we serve only the freshest ingredients in all our dishes. Our chefs are passionate about delivering high-quality meals with a focus on taste and presentation. Our mission is to provide a memorable experience  with every bite </p>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Feel free to reach out!</p>
+            <p>Email: <a href="mailto:info@deliciouseats.com">info@deliciouseats.com</a></p>
+            <p>Phone: +254113444122</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Delicious Eats Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</style>
+</html>
